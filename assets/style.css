@@ -1,0 +1,73 @@
+input[readonly]{
+  background: #cacaca;
+}  
+.icollect-config-form p{
+  padding: 0;
+  margin: 0;
+}
+.icollect-config-form .header{
+  height: 1.8em;
+  line-height: 1.8em;
+  font-size: 1.5em;
+  padding: 5px 0 12px 0;
+  padding-left: 40px;
+  background: url(./logo.png) 3px 9px no-repeat;
+  background-size: 32px;
+}
+.icollect-config-table {
+  margin: 0;
+  border: none;
+  border-collapse: collapse;
+  background: #ffffff;
+  line-height: 1.8;
+  box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+}
+.icollect-config-table > tbody > tr:nth-of-type(odd) {
+    background-color: #F4F4F4;
+}
+.publish-config-box h3 {
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 0;
+  line-height: 1;
+}
+.icollect-config-table {
+  background-color:#FFFFFF;
+  font-size:14px;
+  padding:15px 20px;
+}
+.icollect-config-table td,.icollect-config-table th{
+  height:35px;
+  padding-left:10px;
+  border: none;
+  padding: 0.5em;
+  border-right: 1px solid #efefef;
+}
+.icollect-config {
+  width:320px;
+}
+.icollect-setting-page h3 {
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 0;
+  line-height: 1;
+}
+.pa-1{
+  padding:10px;
+}
+.pt-2{
+  padding-top:20px;
+}
+.updated {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  margin: 5px 15px 2px;
+  padding: 1px 12px;
+  border-left-color: #46b450;
+  transition: opacity 5s ease-out;
+}
+.updated p{
+  margin:6px;
+}
